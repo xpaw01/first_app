@@ -1,3 +1,9 @@
+# Ruby on Rails Tutorial: first application
+
+This is the first application for
+[*Ruby on Rails Tutorial: Learn Rails by Example*] (http://railstutorial.org/)
+by [Michael Hartl] (http://mcihaelhartl.com/).
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
@@ -56,6 +62,7 @@ shown in the browser on requests from 127.0.0.1.
 
 You can also log your own messages directly into the log file from your code
 using the Ruby logger class from inside your controllers. Example:
+
 
   class WeblogController < ActionController::Base
     def destroy
